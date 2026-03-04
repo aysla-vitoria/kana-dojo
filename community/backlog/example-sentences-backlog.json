@@ -168,7 +168,7 @@
     "jlpt": "N3",
     "id": 19,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "彼女は忙しいはずなのに、いつも丁寧に返信してくれる。",
@@ -177,7 +177,7 @@
     "jlpt": "N2",
     "id": 20,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "日本語を勉強し始めて三か月です。",
@@ -186,7 +186,7 @@
     "jlpt": "N5",
     "id": 21,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "駅の近くに新しいカフェができました。",
@@ -195,7 +195,7 @@
     "jlpt": "N4",
     "id": 22,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "雨が降りそうだから、傘を持って行こう。",
@@ -203,7 +203,7 @@
     "english": "It looks like rain, so let's bring an umbrella.",
     "jlpt": "N4",
     "id": 23,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
