@@ -191,13 +191,35 @@
     "correctIndex": 0
   },
   {
-  "question": "What is the Japanese term for "new year"? (Community variation 49)",
+    "question": "What is the Japanese term for \"new year\"? (Community variation 49)",
+    "difficulty": "medium",
+    "answers": [
+      "Shogatsu",
+      "Obon",
+      "Tanabata",
+      "Hinamatsuri"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Japanese island is known for its active volcano Mount Aso? (Community variation 55)",
+    "difficulty": "medium",
+    "answers": [
+      "Kyushu",
+      "Honshu",
+      "Shikoku",
+      "Hokkaido"
+    ],
+    "correctIndex": 0
+  },
+  {
+  "question": "What is the Japanese term for a portable shrine?",
   "difficulty": "medium",
   "answers": [
-    "Shogatsu",
-    "Obon",
-    "Tanabata",
-    "Hinamatsuri"
+    "Mikoshi",
+    "Torii",
+    "Kagura",
+    "Omikoshi"
   ],
   "correctIndex": 0
 }

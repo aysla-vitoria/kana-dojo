@@ -622,5 +622,35 @@
     "backgroundColor": "oklch(20.0% 0.045 290.0 / 1)",
     "mainColor": "oklch(68.0% 0.155 315.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.125 280.0 / 1)"
-  }
+  },
+  {
+    "id": "thunder-temple",
+    "backgroundColor": "oklch(16.0% 0.065 280.0 / 1)",
+    "mainColor": "oklch(85.0% 0.185 260.0 / 1)",
+    "secondaryColor": "oklch(75.0% 0.145 290.0 / 1)"
+  },
+  {
+    "id": "hanami-pink",
+    "backgroundColor": "oklch(92.0% 0.028 345.0 / 1)",
+    "mainColor": "oklch(70.0% 0.165 350.0 / 1)",
+    "secondaryColor": "oklch(78.0% 0.110 25.0 / 1)"
+  },
+  {
+    "id": "mountain-onsen",
+    "backgroundColor": "oklch(20.0% 0.018 210.0 / 1)",
+    "mainColor": "oklch(80.0% 0.085 200.0 / 1)",
+    "secondaryColor": "oklch(68.0% 0.105 160.0 / 1)"
+  },
+  {
+  id: 'sumi-coal',
+  backgroundColor: 'oklch(13.0% 0.015 260.0 / 1)',
+  mainColor: 'oklch(68.0% 0.035 220.0 / 1)',
+  secondaryColor: 'oklch(45.0% 0.025 260.0 / 1)'
+  },
+  {
+  id: 'riverstone-gray',
+  backgroundColor: 'oklch(20.0% 0.010 260.0 / 1)',
+  mainColor: 'oklch(78.0% 0.020 90.0 / 1)',
+  secondaryColor: 'oklch(55.0% 0.035 240.0 / 1)'
+ }
 ]
