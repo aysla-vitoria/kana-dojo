@@ -16,6 +16,8 @@ import { GameBottomBar } from '@/shared/components/Game/GameBottomBar';
 import { isKanaInputAnswerCorrect } from '@/features/Kana/lib/isKanaInputAnswerCorrect';
 import useClassicSessionStore from '@/shared/store/useClassicSessionStore';
 import { useAdaptiveTargetLength } from '@/shared/hooks/game/useAdaptiveTargetLength';
+import { useThemePreferences } from '@/features/Preferences';
+import { cn } from '@/shared/lib/utils';
 
 // Get the global adaptive selector for weighted character selection
 const adaptiveSelector = getGlobalAdaptiveSelector();
@@ -73,6 +75,8 @@ const InputGame = ({ isHidden, isReverse = false }: InputGameProps) => {
     })),
   );
 
+  const isGlassMode = useThemePreferences().isGlassMode;
+
   const speedStopwatch = useStopwatch({ autoStart: false });
 
   const { playClick } = useClick();
@@ -86,12 +90,7 @@ const InputGame = ({ isHidden, isReverse = false }: InputGameProps) => {
     targetLength,
     recordCorrect: recordTargetLengthCorrect,
     recordWrong: recordTargetLengthWrong,
-  } = useAdaptiveTargetLength({
-    minLength: 1,
-    maxLength: 3,
-    correctsPerLevel: 3,
-    wrongsToDecrease: 2,
-  });
+  } = useAdaptiveTargetLength();
 
   const [inputValue, setInputValue] = useState('');
   const [bottomBarState, setBottomBarState] = useState<BottomBarState>('check');
@@ -322,11 +321,16 @@ const InputGame = ({ isHidden, isReverse = false }: InputGameProps) => {
       )}
     >
       {/* <GameIntel gameMode={gameMode} /> */}
-      <div className='flex flex-row items-center gap-1'>
+      <div
+        className={cn(
+          'flex flex-row items-center gap-1',
+          isGlassMode && 'rounded-xl bg-(--card-color) px-4 py-2',
+        )}
+      >
         <motion.p
-          className='text-8xl font-medium sm:text-9xl'
-          initial={{ opacity: 0, y: -30, scale: 0.95 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
+          className='text-7xl font-medium sm:text-8xl'
+          initial={{ opacity: 0, x: 30, scale: 0.95 }}
+          animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{
             type: 'spring',
             stiffness: 150,

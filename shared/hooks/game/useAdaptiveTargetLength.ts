@@ -26,7 +26,7 @@ export function useAdaptiveTargetLength(options: AdaptiveTargetLengthOptions = {
   const {
     minLength = 1,
     maxLength = 3,
-    correctsPerLevel = 3,
+    correctsPerLevel = 5,
     wrongsToDecrease = 1,
   } = options;
 

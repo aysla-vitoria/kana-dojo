@@ -9,7 +9,9 @@
     "kigo": "Frog (kawazu)",
     "notes": "A foundational haiku focused on stillness and sudden movement.",
     "issued": true,
-    "completed": false
+    "completed": false,
+    "completedBy": "23f2003806",
+    "completedPR": 10793
   },
   {
     "id": 2,
@@ -20,7 +22,7 @@
     "season": "Summer",
     "kigo": "Summer grasses (natsukusa)",
     "notes": "Reflects impermanence through a historical battlefield image.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -80,7 +82,7 @@
     "season": "Spring",
     "kigo": "Sparrow chicks (suzume no ko)",
     "notes": "Playful and warm, characteristic of Issa's tone.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -116,7 +118,7 @@
     "season": "Spring",
     "kigo": "Frog (kaeru)",
     "notes": "Humorous encouragement and compassion in Issa's voice.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -140,7 +142,7 @@
     "season": "Spring",
     "kigo": "Spring sea (haru no umi)",
     "notes": "Known for musical phrasing and calm motion.",
-    "issued": false,
+    "issued": true,
     "completed": false
   }
 ]
